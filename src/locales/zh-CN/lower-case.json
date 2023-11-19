@@ -1,8 +1,8 @@
 {   
-    "lower-case": {
-        "label": {
-            "name": "名称",
-            "command": "指令"
-        }
+    "fields": {
+        "name": "名称:",
+        "nameHint": "请输入节点名称",
+        "command": "指令:",
+        "commandHint": "请输入指令"
     }
 }
