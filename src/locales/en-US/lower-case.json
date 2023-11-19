@@ -1,0 +1,8 @@
+{   
+    "lower-case": {
+        "label": {
+            "name": "name",
+            "command": "command"
+        }
+    }
+}
