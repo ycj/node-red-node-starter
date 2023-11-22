@@ -4,7 +4,7 @@
   "description": "{{description}}",
   "node-red": {
     "nodes": {
-      "lower-case": "src/lower-case.js"
+      "lower-case": "src/{{node_name}}.js"
     }
   },
   "scripts": {
