@@ -5,7 +5,8 @@
   "node-red": {
     "nodes": {
       "lower-case": "src/{{node_name}}.js"
-    }
+    },
+    "version": ">={{minNodeRedVersion}}"
   },
   "scripts": {
     "test": "npx mocha",
@@ -28,5 +29,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">={{minNodeEngineVersion}}"
   }
 }
