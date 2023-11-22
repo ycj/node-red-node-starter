@@ -1,7 +1,7 @@
 {
-  "name": "@hylink/node-red-low-case",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "node-red-create-node-example",
+  "description": "{{description}}",
   "node-red": {
     "nodes": {
       "lower-case": "src/lower-case.js"
@@ -14,8 +14,8 @@
   "keywords": [
     "node-red"
   ],
-  "author": "y.c.j",
-  "license": "MIT",
+  "author": "{{author}}",
+  "license": "{{MIT}}",
   "devDependencies": {
     "@types/node-red": "^1.3.4",
     "mocha": "^10.2.0",
@@ -23,5 +23,10 @@
     "node-red-node-test-helper": "^0.3.2",
     "nyc": "^15.1.0",
     "should": "^13.2.3"
+  },
+  "private": {{private}},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
