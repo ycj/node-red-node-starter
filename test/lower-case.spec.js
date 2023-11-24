@@ -1,5 +1,5 @@
 const helper = require("node-red-node-test-helper");
-const lowerNode=require('../src/lower-case.js')
+const lowerNode=require('../src/{{node_name}}.js')
 
 helper.init(require.resolve('node-red'));
 

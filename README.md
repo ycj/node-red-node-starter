@@ -1,0 +1,1 @@
+服务于@hylink/node-red-cli项目的模板工程，不可直接执行
